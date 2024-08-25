@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  school,
+  college,
+  university,
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +171,29 @@ const experiences = [
     ],
   },
 ];
-
+const educations = [
+  {
+    edu: "Matric in Computer Science",
+    provider: "GOVT High School Thikrian",
+    icon: school,
+    date: "2018",
+    points: ["complee matric"],
+  },
+  {
+    education: "Intermediate in Computer Science",
+    provider: "Best Group of Colleges",
+    icon: college,
+    date: "2018 - 2020",
+    points: ["complee matric"],
+  },
+  {
+    education: "Bacherlor in Computer Science",
+    provider: "Pir Mehr Ali Shah Arid Agriculture University",
+    icon: university,
+    date: "2020 - 2024",
+    points: ["complee matric"],
+  },
+];
 const testimonials = [
   {
     testimonial:
@@ -262,4 +287,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};
